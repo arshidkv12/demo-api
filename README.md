@@ -25,9 +25,7 @@ CREATE TABLE IF NOT EXISTS order_items (
     PRIMARY KEY (id),
     FOREIGN KEY (order_id) REFERENCES orders(id)
 
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;```
-
-
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
 `
