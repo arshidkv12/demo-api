@@ -4,7 +4,8 @@
 
 **SQL**:
 
-```CREATE TABLE IF NOT EXISTS orders (
+``` 
+CREATE TABLE IF NOT EXISTS orders (
   id bigint(20) NOT NULL AUTO_INCREMENT,
   email_id varchar(100) NOT NULL,
   status enum('created','processed','delivered','cancelled') NOT NULL,
@@ -28,4 +29,4 @@ CREATE TABLE IF NOT EXISTS order_items (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 
-`
+
