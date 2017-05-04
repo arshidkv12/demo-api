@@ -2,6 +2,8 @@
 
 **Demo url :** https://cmsget.org/oms/demo
 
+Go to  application/config/config.php and change base url.
+
 **SQL**:
 
 ``` 
